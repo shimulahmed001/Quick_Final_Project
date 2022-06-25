@@ -1,0 +1,174 @@
+/*common start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	color: #172d5c;
+}
+/*common end*/
+/*header start*/
+header{
+	border-bottom: #eef0f3 2px solid;
+	padding: 15px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+}
+.logo{
+	float: left;
+	width: 8%;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width: 50%;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#172d5c ;
+	padding: 0 20px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+ }
+/*header end*/
+/*Banner start*/
+.banner{
+	padding: 50px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 55%;
+	text-align: center;
+}
+.b_h1{
+	font-size: 45px;
+	padding: 0 50px;
+	margin: 0 0;
+}
+.b_h1 span{
+	color:#008aff ;
+}
+.b_p{
+	line-height: 25px;
+	margin: 20px 0;
+}
+.b_img{
+	margin: 0 auto;
+	width: 75%;
+}
+.b_img img{
+	width: 100%;
+}
+/*Banner end*/
+/*success start*/
+.success{
+	padding: 50px 0;
+}
+.container3{
+	overflow: hidden;
+	width: 60%;
+	margin: 0 auto;
+}
+.s_left{
+	width: 47%;
+	float: left;
+	text-align: right;
+	padding-right: 0px;
+	padding-left: 10px;
+}
+.s_left h2{
+	font-size: 45px;
+	color: #f15767;
+	margin: 0;
+}
+.s_left p{
+	line-height: 25px;
+	margin: 5px 0 0 ;
+}
+.s_right{
+	padding-right: 10px;
+	padding-left: 0px;
+	width: 47%;
+	float: right;
+}
+.s_right h1{
+	font-size: 42px;
+	margin: 0;
+
+}
+/*success end*/
+/*feature start*/
+.feature{
+	padding-bottom: 60px;
+}
+.f_single{
+	float: left;
+	padding: 50px 28px;
+	width: 27%;
+	margin-right: 30px;
+}
+.f_single:last-child{
+	margin-right: 0;
+
+}
+.f_img{}
+.f_img img{
+	width: 100%;
+}
+.f_single h2{
+	margin: 20px 0;
+	font-size: 25px;
+}
+.f_single p{
+	margin: 0;
+	line-height: 25px;
+}
+.pink{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.yellow{
+	background-color: #fff7e8;
+}
+/*feature end*/
+/*footer start*/
+footer{
+	background-color: #008aff;
+	padding: 30px 0;
+}
+footer p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+footer p a{
+	color: white;
+}
+/*footer end*/
